@@ -16,6 +16,6 @@ the repository contains the files MLproject and conda.yaml, MLproject file speci
 
 # MLflow Commands
 by running the command :
-mlflow run https://github.com/Skypouk/MLflow -P alpha=5.0.
+mlflow run https://github.com/Skypouk/MLflow.git -P alpha=5.0
 
 MLflow runs your training code in a new Conda environment with the dependencies specified in conda.yaml.
